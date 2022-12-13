@@ -62,7 +62,7 @@ img {
   background-size: cover;
   width: 100%;
   min-height: 100vh;
-  background-image: url(images/top.JPG);
+  background-image: url(../images/top.JPG);
   color: white;
   text-align: center;
 }
@@ -85,7 +85,6 @@ color: #FFFFFF;
 .message-wrapper {
   height: 675px;
   padding: 100px 0 100px 0;
-  /* padding-bottom: 80px; */
   padding-left: 5%;
   padding-right: 5%;
   text-align: center;
@@ -99,7 +98,7 @@ color: #FFFFFF;
 }
 
 .message-wrapper h3 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
   line-height: 35px;
   margin-bottom: 35px;
@@ -191,6 +190,7 @@ color: #FFFFFF;
 .detail p {
   font-size: 12px;
   margin: 12px;
+  text-align: left;
 }
 
 .arrow-icon {
