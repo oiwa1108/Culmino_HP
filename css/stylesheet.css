@@ -6,6 +6,10 @@ html {
   font-size: 100%;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Noto Sans JP", sans-serif, "Roboto", sans-serif;
   color: #5A5453;
@@ -83,7 +87,7 @@ color: #FFFFFF;
 }
 
 .message-wrapper {
-  height: 675px;
+  /* height: 675px; */
   padding: 100px 0 100px 0;
   padding-left: 5%;
   padding-right: 5%;
@@ -187,6 +191,10 @@ color: #FFFFFF;
   font-size: 16px;
 }
 
+.detail {
+  text-align: center;
+}
+
 .detail p {
   font-size: 12px;
   margin: 12px;
@@ -198,7 +206,7 @@ color: #FFFFFF;
 }
 
 .page-footer {
-  height: 220px;
+  /* height: 220px; */
   padding-left: 5%;
   padding-right: 5%;
   text-align: center;
@@ -230,4 +238,5 @@ color: #FFFFFF;
 
 footer p {
   font-size: 12px;
+  padding-bottom: 30px;
 }

@@ -1,0 +1,94 @@
+@media (max-width: 1150px) {
+  /* lessonクラスのCSSを指定してください */
+  .footer-navi li {
+    font-size: 14px;
+  }
+
+  .sns-icons {
+    width: 25px;
+    height: 25px;
+  }
+  
+}
+
+@media (max-width: 1085px) {
+  /* lessonクラスのCSSを指定してください */
+  .detail p {
+    font-size: 11px;
+  }
+  
+}
+
+@media (min-width: 670px) {
+  .example2 .container {
+    flex-direction: row-reverse;
+  }
+}
+
+@media (max-width: 670px) {
+  /* //PCのみ */
+
+  .top-wrapper {
+    padding: 150px 0 50px 0;
+  }
+
+  .top-wrapper h1 {
+    font-size: 70px;
+  }
+
+  .message-wrapper h2 {
+    font-size: 20px;
+    line-height: 35px;
+    margin-bottom: 35px;
+    text-align: left;
+  }
+  
+  .message-wrapper h3 {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 25px;
+    text-align: left;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    text-align: center;
+    background-color: ;
+  }
+
+  .example-image {
+    width: 200px;
+  }
+  
+  .desc h3 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 35px;
+    margin-bottom: 35px;
+  }
+  
+  .desc p {
+    font-size: 12px;
+    line-height: 29px;
+    margin-bottom: 29px;
+  }
+
+  .page-footer {
+    text-align: left;
+  }
+
+  .sns-container {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .footer-navi {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+  }
+}
