@@ -205,6 +205,9 @@
     width: 200px;
   }
   
+  .desc {
+    align-items: center;
+  }
   
   .desc h3, .desc2 h3 {
     font-size: 20px;
