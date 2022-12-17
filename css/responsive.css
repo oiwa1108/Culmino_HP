@@ -198,15 +198,18 @@
     flex-direction: column;
     /* justify-content: space-around; */
     /* align-items: center; */
-    text-align: center;
+    /* text-align: center; */
   }
 
   .example-image, .example-image2 {
     width: 200px;
   }
   
-  .desc {
-    align-items: center;
+  .example-image2 {
+    margin-right: 0%;
+  }
+  .desc2 {
+   align-items: flex-start;
   }
   
   .desc h3, .desc2 h3 {
