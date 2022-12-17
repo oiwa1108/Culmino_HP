@@ -246,6 +246,9 @@
     margin: 20px 0;
   }
   
+  .feature-contents p {
+    font-size: 16px;
+  }
 
   .set {
     margin: 20px 0;
