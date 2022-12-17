@@ -62,6 +62,9 @@
   .example2 .container {
     flex-direction: row-reverse;
   }
+  .sp-br {
+    display: none;
+  }
 }
 
 @media (max-width:920px) {
@@ -204,13 +207,13 @@
   
   
   .desc h3, .desc2 h3 {
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 16px;
     margin-bottom: 20px;
   }
   
   .desc p, .desc2 p {
-    font-size: 12px;
+    font-size: 16px;
     text-align: left;
     margin-bottom: 29px;
   }
@@ -250,6 +253,11 @@
     font-size: 16px;
   }
 
+  .sp-br {
+    display: block;
+    /* display: none; */
+  }
+
   .set {
     margin: 20px 0;
   }
@@ -271,7 +279,7 @@
   }
 
   .detail p {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .tb-br {
