@@ -24,6 +24,10 @@
 
 
 @media (max-width:670px) {    
+  .page-header {
+    height: 48px;
+  }
+
   .message-wrapper {
     padding: 70px 5%;
   }
