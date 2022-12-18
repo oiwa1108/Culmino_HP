@@ -25,7 +25,7 @@ img {
   max-width: 100%;
 }
 
-/* HEADER
+/* ヘッダー
 ----------------------------- */
 
 .logo {
@@ -56,53 +56,33 @@ img {
   display: block;
 }
 
-/*　HOME
+/*　タイトル部分
 ----------------------------------------- */
 .top-wrapper {
-  /* padding: 200px 0 100px 0;
-  display: flex;
-  align-items: center;
-  justify-content: center; */
   background-size: cover;
   background-position: center;
   width: 100%;
   min-height: 100vh;
   background-image: url(../images/top.JPG);
-  /* color: white;
-  text-align: center; */
   position: relative;
 }
 
 .title {
-  /* margin-top: 65px; */
   position: absolute;
-  top: 65%;
+  top: 60%;
   left: 75%;
+  right: 5%;
   transform: translate(-50%, -50%);
   width: 400px;
 }
 
-.top-wrapper h1 {
-font-family: 'Roboto'; 
-font-weight: bold;
-font-size: 150px;
-/* line-height: 211px; */
-/* ボックスの高さと同一 */
-color: #FFFFFF;
-/* -webkit-text-stroke-width: 6px;
--webkit-text-stroke-color: #FA8072;
--webkit-text-fill-color: white; */
-
-/* -webkit-text-stroke: 0.05px #FA8072; */
-
-}
+/*　クルミノは
+----------------------------------------- */
 
 .message-wrapper {
-  /* height: 675px; */
   padding: 100px 0 100px 0;
   padding-left: 5%;
   padding-right: 5%;
-  text-align: center;
 }
 
 .message-wrapper h2 {
@@ -123,19 +103,12 @@ color: #FFFFFF;
   clear: left;
 }
 
+/* 例えば・・・
+----------------------------------------- */
+
 .example1 {
   background-color: #FDEDEC;
-  /* height: 350px; */
   letter-spacing: 0.025em;
-}
-
-.example-image {
-  width: 350px;
-}
-
-.example-image2 {
-  width: 350px;
-  margin-right: 5%;
 }
 
 .container {
@@ -144,67 +117,48 @@ color: #FFFFFF;
   align-items: center;
 }
 
-.desc {
-  /* width: 400px; */
-  /* padding: 70px 0; */
+.example-image, .example-image2 {
+  width: 350px;
+}
+
+
+.desc, .desc2 {
   display: flex;
   flex-direction: column;
 }
 
-.desc2 {
-  /* width: 400px; */
-  /* padding: 70px 0; */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.desc h3 {
+.desc h3, .desc2 h3 {
   font-size: 24px;
   font-weight: bold;
   line-height: 35px;
   margin-bottom: 35px;
 }
 
-.desc p {
+.desc p, .desc2 p {
   line-height: 29px;
-  /* margin-bottom: 29px; */
-}
-
-.desc2 h3 {
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 35px;
-  margin-bottom: 35px;
-}
-
-.desc2 p {
-  line-height: 29px;
-  /* margin-bottom: 29px; */
 }
 
 .example2 {
   background-color: #F4F4F4;
-  /* height: 350px; */
   letter-spacing: 0.025em;
   align-items: center;
 }
 
-/* .container2 {
-  display: flex;
-  justify-content: center;
-} */
-
 .example3 {
   background-color: #F4ECEA;
-  /* height: 350px; */
   letter-spacing: 0.025em;
 }
 
+.sp-br {
+  display: none;
+}
+
+
+/*　クルミノの楽しみ方
+----------------------------------------- */
+
 .feature {
   padding: 60px 0;
-  /* height: 600px; */
-  /* padding-bottom: 80px; */
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -215,27 +169,20 @@ color: #FFFFFF;
   margin-bottom: 60px;
 }
 
-/* .set {
-  text-align: center;
-} */
-
 .feature-container {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
   padding-top: 24px;
-  /* margin-bottom: 70px; */
 }
 
 .feature-contents {
-  /* width: 300px; */
   text-align: center;
 }
 
 
 .feature-image {
   width: 120px;
-  /* border-radius: 100px; */
 }
 
 .feature-contents h3 {
@@ -253,17 +200,19 @@ color: #FFFFFF;
 }
 
 .detail p {
-  font-size: 12px;
-  margin: 12px;
-  /* text-align: left; */
+  font-size: 14px;
+  margin: 12px 0;
+  text-align: start;
 }
 
 .arrow-icon {
-  margin: 120px 0;
+  margin: 155px 10px 0 10px;
 }
 
+/* フッター
+----------------------------------------- */
+
 .page-footer {
-  /* height: 220px; */
   padding-left: 5%;
   padding-right: 5%;
   text-align: center;
@@ -273,14 +222,16 @@ color: #FFFFFF;
 
 .footer-navi {
   display: flex;
-  list-style: none;
   justify-content: space-around;
+  flex-wrap: wrap;
+  list-style: none;
   padding-top: 30px;
 }
 
+
 .footer-navi li {
-  font-size: 16px;
-  margin-left: 20px;
+  font-size: 14px;
+  margin: 0 15px 10px 15px;
 }
 
 
