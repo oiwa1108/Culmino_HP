@@ -25,11 +25,24 @@
 
 @media (max-width:670px) {    
   .page-header {
-    height: 44px;
+    display: none;
   }
 
-  .button {
-    font-size: 14px;
+  .sp-button {
+    background: #FA8072;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10000;
+    font-size: 20px;
+  }
+
+  .title {
+    top: 50%;
   }
 
   .message-wrapper {
@@ -145,7 +158,6 @@
 @media (max-width: 480px) {
   .title {
     width: 300px;
-    top: 55%;
     left: 50%;
   }
   

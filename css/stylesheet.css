@@ -29,7 +29,7 @@ img {
 ----------------------------- */
 
 .logo {
-  width: 124px;
+  width: 150px;
   padding-top: 5px;
 }
 
@@ -48,13 +48,13 @@ img {
 }
 
 /* ボタン */
- .button {
+ .pc-button {
   background: #FA8072;
   color: white;
   border-radius: 15px;
   text-align: center;
   padding: 5px 20px;
-  display: block;
+  font-size: 20px;
 }
 
 /*　タイトル部分
@@ -72,7 +72,6 @@ img {
   position: absolute;
   top: 60%;
   left: 75%;
-  right: 5%;
   transform: translate(-50%, -50%);
   width: 400px;
 }
