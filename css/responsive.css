@@ -28,6 +28,10 @@
     height: 48px;
   }
 
+  .button {
+    font-size: 14px;
+  }
+
   .message-wrapper {
     padding: 70px 5%;
   }
